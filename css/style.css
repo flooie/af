@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+.white{
+  background-color: #fff;
+}
+.red{
+  background-color: #B22234;
+}
+
+.whiteColor{
+  color: #fff;
+}
+
+  .frame{
+  /*border: 1px solid #000;*/
+  width: 1330px;
+  height: 700px;
+}
+
+.clearBoth{
+  clear: both;
+}
+
+.stars{
+  width: 40%;
+  height: 53.83%;
+  float: left;
+  background-color: #3C3B6E;
+  position: relative;
+}
+
+
+.stripe{
+  width: 100%;
+  height: 7.69%;
+}
+
+.rowStar1{
+  position: absolute;
+  top: 6%;
+  left: 5.4%;
+  width: 88.8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rowStar2{
+  position: absolute;
+  top: 26%;
+  left: 5.4%;
+  width: 88.8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rowStar3{
+  position: absolute;
+  top: 46%;
+  left: 5.4%;
+  width: 88.8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rowStar4{
+  position: absolute;
+  top: 66%;
+  left: 5.4%;
+  width: 88.8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rowStar5{
+  position: absolute;
+  top: 86%;
+  left: 5.4%;
+  width: 88.8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rowStar6{
+  position: absolute;
+  top: 16%;
+  left: 13.7%;
+  width: 72.2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rowStar7{
+  position: absolute;
+  top: 36%;
+  left: 13.7%;
+  width: 72.2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rowStar8{
+  position: absolute;
+  top: 56%;
+  left: 13.7%;
+  width: 72.2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rowStar9{
+  position: absolute;
+  top: 76%;
+  left: 13.7%;
+  width: 72.2%;
+  display: flex;
+  justify-content: space-between;
+}
