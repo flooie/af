@@ -5,15 +5,25 @@
     <title>American Flag</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+    <style>
+      #text{
+  position: block;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+    </style>
   </head>
 
 
   <body>
 
-    <div class="frame">
-
-
-      <p> some text to overlay</p>
+    <div class="frame" style="position:fixed">
 
       <div class="stars">
 
@@ -117,5 +127,12 @@
 
     </div>
 
+    <div id="overlay" onclick="off()">
+  <div id="text">Overlay Text adsfasdfasdfsf</div>
+</div>
+
+
+    
+    
   </body>
 </html>
